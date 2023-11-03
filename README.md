@@ -2,7 +2,7 @@
 
 Welcome to the Random Quotes App, a delightful project built with Next.js and powered by the Quotable API. This simple yet elegant web application provides you with daily inspiration and the ability to share your favorite quotes on Twitter.
 
-![Random Quotes App Screenshot](/public/screenshot.png)
+![Random Quotes App Screenshot](/public/quotes-app.png)
 
 ## Getting Started 🚀
 
