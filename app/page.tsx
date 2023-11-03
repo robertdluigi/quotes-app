@@ -34,6 +34,8 @@ export default function Home() {
 	};
 
 	return (
+    <>
+    <div style={{ textAlign: 'center', fontSize: '32px', marginTop: '100px' }}>Random Quotes</div>
 		<div id="quote-box">
 			<div id="text" className="absolute top-0 left-0 p-6">{quote}</div>
 			<div id="author" className="absolute top-36 right-2 p-2">- {author}</div>
@@ -51,5 +53,6 @@ export default function Home() {
 				<Twitter color="#000000" />
 			</a>
 		</div>
+    </>
 	);
 }
