@@ -25,3 +25,68 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#quote-box
+{
+  overflow-y: auto;
+  border-radius: 15px;
+  position: absolute;
+  background-color: white;
+  width: 650px;
+  height: 300px;
+  max-height: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#text
+{
+  white-space:pre-wrap;
+  font-size: 22px;
+  color: black;
+}
+
+#author
+{
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 24px;
+  color: black;
+}
+
+/* CSS for the "New Quote" button */
+#new-quote {
+  background: linear-gradient(90deg, #FF5733, #FF057C);
+  color: #FFF;
+  left: 25px;
+  bottom: 25px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+  /* Add drop shadow */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#new-quote:hover {
+  background: linear-gradient(90deg, #FF057C, #FF5733);
+}
+
+/* CSS for the "Tweet Quote" button */
+
+#tweet-quote
+{
+  padding: 5px 15px;
+  bottom: 25px;
+  right: 25px;
+  transition: bottom 0.3s ease-in-out;
+}
+
+#tweet-quote:hover {
+  bottom:30px;
+}
