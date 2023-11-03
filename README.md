@@ -44,15 +44,6 @@ npm run dev
 
 Contributions and feedback are always welcome. If you'd like to improve or customize the app, feel free to create pull requests or open issues. Your creative ideas can make this app even better!
 
-## Deploy on Vercel ☁️
-
-The easiest way to deploy your Next.js app is to use the Vercel Platform. From the creators of Next.js, Vercel offers a seamless deployment experience for your web apps.
-
-To deploy your Random Quotes App on Vercel, simply click the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-
-For more deployment details, refer to the Next.js deployment documentation.
 
 ## Learn More 📖
 
